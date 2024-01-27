@@ -4,8 +4,10 @@ import smallRight from "../../assets/icons/small-right.png"
 import smallLeft from "../../assets/icons/small-left.png"
 import search from "../../assets/icons/search.png"
 
+
+
     
-const Header = () => {
+const Header = ({ searchInput, setSearchInput }) => {
     return (
         <nav className="header__navigation">
             <div className="navigation">
@@ -18,13 +20,14 @@ const Header = () => {
             </div>
             <div className="header__search">
                 <img src={search} alt="Buscar"/>
-                <input 
-                    id="search-input" 
-                    maxLength="800" 
-                    autoCorrect="off" 
-                    autoCapitalize="off" 
-                    spellCheck="false"
+                <input
+                    id="search-input"
+                    className="search__input"
+                    type="text"
+                    maxLength="800"
                     placeholder="O que você quer ouvir?"
+                    value={searchInput}
+                    onChange={(e) => setSearchInput(e.target.value)}
                 />
             </div>
             <div className="header__login">

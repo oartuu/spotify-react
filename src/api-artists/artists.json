@@ -1,0 +1,64 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Foo Fighters",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174c884df599abc793c116cdf15"
+    },
+    {
+      "id": 2,
+      "name": "Metallica",
+      "genre": "Metal",
+      "urlImg": "https://i.scdn.co/image/ab6761610000517469ca98dd3083f1082d740e44"
+    },
+    {
+      "id": 3,
+      "name": "AC/DC",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174c4c77549095c86acb4e77b37"
+    },
+    {
+      "id": 4,
+      "name": "Black Sabbath",
+      "genre": "Metal",
+      "urlImg": "https://i.scdn.co/image/ab676161000051744870cd833ebe1092601820c3"
+    },
+    {
+      "id": 5,
+      "name": "Guns N' Roses",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab6761610000517450defaf9fc059a1efc541f4c"
+    },
+    {
+      "id": 6,
+      "name": "Angra",
+      "genre": "metal",
+      "urlImg": "https://i.scdn.co/image/ab6761610000517466ed9eef4c4f85369167a555"
+    },
+    {
+      "id": 7,
+      "name": "Megadeath",
+      "genre": "metal",
+      "urlImg": "https://i.scdn.co/image/ab6761610000517479058c0b634631533ed40b22"
+    },
+    {
+      "id": 8,
+      "name": "Slipknot",
+      "genre": "metal",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174ff9f4de8c13f6f563acbfaf1"
+    },
+    {
+      "id": 9,
+      "name": "System Of A Down",
+      "genre": "metal",
+      "urlImg": "https://i.scdn.co/image/ab6761610000517460063d3451ade8f9fab397c2"
+    },
+    {
+      "id": 10,
+      "name": "Xutos & Pontapés",
+      "genre": "rock",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174690e266a081ffab5ad917d2d"
+    }
+  ]
+}
